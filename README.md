@@ -6,8 +6,8 @@ a small script to execute a macro I used often with Windows for my logitech mous
 ( PRO X 2 )
 
 If the user holds the BTN_EXTRA ( first extra button to the left side ), the script
-will spam left clicks. Works by listening to events from `libinput` to trigger other
-events into `uinput`. The libs `uinput` and `libinput` should already be setup with Wayland.
+will spam left clicks. Works by listening to events from `/dev/input` to trigger other
+events into `uinput`. The lib `uinput` should already be setup with Wayland.
 
 ## Install and run
 
