@@ -34,6 +34,5 @@ gcc poe_click_macro.c -o poe_click_macro
 
 # -E is used so sudo propagates environment variables XDG_RUNETIME_DIR and WAYLAND_DISPLAY.
 # they are not required but avoids some warning/error messages
-sudo -E ./poe_click_macro /dev/input/event3
-gcc
+sudo -E ./poe_click_macro /dev/input/event3 '<regex_here>' 
 ```
